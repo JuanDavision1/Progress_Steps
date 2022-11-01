@@ -16,7 +16,7 @@ body{
     flex-flow: wrap row;
     justify-content: center;
     align-items: center;
-    background-color: rgb(28, 66, 99);
+ 
 }
 #big-box #procces_img{
     width: 500px;
@@ -26,7 +26,7 @@ body{
     flex-flow: wrap row;
     justify-content: center;
     align-items: center;
-    background-color: violet;
+
 
 }
 #big-box #procces_img .circle{
@@ -55,18 +55,20 @@ background-color: #e0e0e0;
     flex-flow: wrap row;
     justify-content: center;
     align-items: center;
-    background-color: violet;
 }
-#big-box #button-process input{
+#big-box #button-process button{
     width: 80px;
     height: 35px;
     margin: 25px;
     border: 2px solid transparent;
+    cursor: pointer;
   border-radius: 7px;
 }
-#big-box #button-process input #prev{
+#big-box #button-process  #prev{
 background-color: #c5c2c2;
+color: #fff;
 }
-#big-box #button-process input #next{
-background-color: blue;
+#big-box #button-process  #next{
+background-color: #3498db;
+color: #fff;
 }
